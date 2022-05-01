@@ -1,0 +1,134 @@
+.container
+{
+    position: relative;
+    font-size: 1px;
+    text-align: center;
+    color: black;
+    background-color: rgb(0, 242, 255);
+    
+}
+.centered
+{
+    position: absolute;
+    font-size: large;
+    top: 200px;
+    height: 200px;
+    width:1000px;
+    background-color: rgb(27, 138, 110);
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: -150px;
+    font-family:serif;
+    background-size: contain;
+    color: white;
+    
+    
+   
+}
+.top-right
+{
+    position:fixed;
+    top:20px;
+    left:9px;
+    
+    font-size: 25px;
+    
+}
+
+.top-left
+{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+
+    font-size: 25px;
+}
+
+.image{
+    margin-top: 300px;
+   border-style:ridge;
+   border-width: 3px;
+   border-image-slice: 20px;
+   padding-right: 299px;
+   height: 500px;
+   width: 600px;
+   padding: 20px;
+}
+.images{
+    margin-top: -550px;
+    position: absolute;
+    left: 700px;
+    border-style: ridge;
+    padding-left: 299px;
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+}
+.form{
+    margin-top: -300px;
+    position: absolute;
+    left: 700px;
+    border-style: ridge;
+    padding-left: 299px;
+    height: 260px;
+    width: 350px;
+    padding: 20px;
+}
+.form-control input{
+    border-radius: 8px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+    
+
+
+.form button{
+    background-color: rgb(27, 138, 110);
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+}
+.topnav{
+    background-color: rgb(27, 138, 110);
+    overflow: hidden;
+    position: fixed;
+    top: 220px;
+    z-index: 150;
+    border-top: rgb(27, 138, 110);
+    nav-right: auto;
+    size-adjust: 200px;
+}
+.topnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-top: 100px;
+    border-width: 100;
+    column-width: 100px;
+}
+.topnav a:hover{
+    background-color: darkturquoise;
+    color: aliceblue;
+}
+.topnav a:active{
+    background-color: rgb(240, 249, 255);
+    
+}
+.navbar-down{
+    float: down;
+    
+}
+
+
